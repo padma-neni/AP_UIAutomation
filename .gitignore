@@ -1,0 +1,11 @@
+.iml
+target
+.idea
+ScreenshotsFailure
+ScreenshotsSuccess
+extent-reports
+ob-directory.log
+/logs/
+/.settings/
+/.project
+/.classpath
