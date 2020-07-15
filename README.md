@@ -43,4 +43,9 @@
 ## Folders for these reports: ##
 ![Image of Report Folder](https://github.com/padma-neni/apUIAutomation/blob/master/images/ReportsFolder.PNG)
 
-   
+
+## Snap Shot of Cucumber Report ##
+![Image of Cucumber Report](https://github.com/padma-neni/apUIAutomation/blob/master/images/CucumberReport.PNG)
+
+## Snap Shot of Extent Report ##
+![Images of Extent Report](https://github.com/padma-neni/apUIAutomation/blob/master/images/ExtentReport.PNG)
