@@ -36,6 +36,11 @@
 ## Framework / Directory Structure ##
 ![Image of Directory structure](https://github.com/padma-neni/apUIAutomation/blob/master/images/DirectoryStructure.PNG)
 
+### Cucumber Reports: net.masterthought - This will generate two reports ###
+*	Cucumber Pretty (folder - "target\site\cucumber-reports\cucumber-pretty"), file - "index.html"
+*	Cucumber Advance (folder - "target\site\cucumber-reports\advanced-reports\cucumber-html-reports"), file - "overview-features.html"
 
+## Folders for these reports: ##
+![Image of Report Folder] (https://github.com/padma-neni/apUIAutomation/blob/master/images/ReportsFolder.PNG)
 
    
