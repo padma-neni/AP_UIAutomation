@@ -15,6 +15,8 @@
   - Windows 10
   - Java SDK8
   - Maven 
+ 
+ * Browser : Chrome
 
  ##  This framework sample code covers : ##
  
