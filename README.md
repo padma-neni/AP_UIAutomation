@@ -33,7 +33,7 @@
 ## Steps to run: ##
 *	Clone the repository using "git clone "
 *	Run "mvn clean install -P test" // to run profile with test
-*	Run “mvn clean install -P test -Dcucumber.options="--tags @smoketest 
+*	Run mvn clean install -P test -Dcucumber.options= "--tags @smoketest"
 
 ## Framework / Directory Structure ##
 ![Image of Directory structure](https://github.com/padma-neni/apUIAutomation/blob/master/images/DirectoryStructure.PNG)
