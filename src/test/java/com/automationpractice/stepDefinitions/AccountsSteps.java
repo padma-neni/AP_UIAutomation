@@ -2,6 +2,7 @@ package com.automationpractice.stepDefinitions;
 
 import com.automationpractice.pageObjects.AccountPage;
 import com.automationpractice.cucumber.TestContext;
+import com.automationpractice.pageObjects.HomePage;
 import com.automationpractice.util.RandomValues;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -15,15 +16,24 @@ public class AccountsSteps extends BaseSteps {
     private static final Logger logger = LoggerFactory.getLogger(AccountsSteps.class);
 
     AccountPage accountPage;
+    HomePage homepage;
+
     TestContext testContext;
     public String emailAddress = RandomValues.generateRandomEmailAddress();
     public String wMessage = "Welcome to your account. Here you can manage all of your personal information and orders.";
     public String loginUserName = "apuiautotest@test.com";
     public String loginPwd = "AutoTest123";
 
+
     public AccountsSteps(TestContext context){
         testContext = context;
         accountPage = testContext.getPageObjectManager().getaccountPage();
+        homepage = testContext.getPageObjectManager().gethomePage();
+    }
+
+    @Given("^User clicks on sign in link on homepage$")
+    public void userClicksonSigninlinkonHomePage(){
+       accountPage.clickOnSignInLink();
     }
 
 

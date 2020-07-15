@@ -16,6 +16,6 @@ Feature: Accounts tests
 
   Scenario: User should able to login with existing details
     Given User clicks on sign in link on homepage
-    When User click on loginbutton entering valid login details
+    When User click on login button entering valid login details
     Then user should successfully logged in
 
