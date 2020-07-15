@@ -41,6 +41,6 @@
 *	Cucumber Advance (folder - "target\site\cucumber-reports\advanced-reports\cucumber-html-reports"), file - "overview-features.html"
 
 ## Folders for these reports: ##
-![Image of Report Folder] (https://github.com/padma-neni/apUIAutomation/blob/master/images/ReportsFolder.PNG)
+![Image of Report Folder](https://github.com/padma-neni/apUIAutomation/blob/master/images/ReportsFolder.PNG)
 
    
