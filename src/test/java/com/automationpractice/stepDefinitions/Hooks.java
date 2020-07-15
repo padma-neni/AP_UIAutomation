@@ -39,7 +39,6 @@ public class Hooks {
 
     @After(order = 0)
     public void tearDown(Scenario scenario) {
-
         testContext.getWebDriverManager().closeDriver();
     }
 

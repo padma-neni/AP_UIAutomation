@@ -1,4 +1,4 @@
-@e2etests
+@e2etests  @regressiontest
 Feature: End2End tests
   As a user should able to create an account successfully
 
