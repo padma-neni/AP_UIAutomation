@@ -28,6 +28,10 @@
    - Shopping work flow with existing user
    - Shopping work flow with new user
 
+## Steps to run: ##
+*	Clone the repository using "git clone "
+*	Run "mvn clean install -P test" // to run profile with test
+*	Run “mvn clean install -P test -Dcucumber.options="--tags @smoketest 
 
 
    
